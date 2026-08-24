@@ -1,0 +1,222 @@
+{
+  "Crystal Palace FC": [
+    {
+      "date": "2026-08-22T14:00:00Z",
+      "opponent": "Everton FC",
+      "venue": "A",
+      "goals_for": 0,
+      "goals_against": 2,
+      "outcome": "L",
+      "competition": "Premier League"
+    }
+  ],
+  "Manchester City FC": [
+    {
+      "date": "2026-08-23T13:00:00Z",
+      "opponent": "AFC Bournemouth",
+      "venue": "H",
+      "goals_for": 2,
+      "goals_against": 1,
+      "outcome": "W",
+      "competition": "Premier League"
+    }
+  ],
+  "Liverpool FC": [
+    {
+      "date": "2026-08-23T15:30:00Z",
+      "opponent": "Newcastle United FC",
+      "venue": "A",
+      "goals_for": 2,
+      "goals_against": 2,
+      "outcome": "D",
+      "competition": "Premier League"
+    }
+  ],
+  "Nottingham Forest FC": [
+    {
+      "date": "2026-08-22T14:00:00Z",
+      "opponent": "Leeds United FC",
+      "venue": "H",
+      "goals_for": 0,
+      "goals_against": 1,
+      "outcome": "L",
+      "competition": "Premier League"
+    }
+  ],
+  "AFC Bournemouth": [
+    {
+      "date": "2026-08-23T13:00:00Z",
+      "opponent": "Manchester City FC",
+      "venue": "A",
+      "goals_for": 1,
+      "goals_against": 2,
+      "outcome": "L",
+      "competition": "Premier League"
+    }
+  ],
+  "Everton FC": [
+    {
+      "date": "2026-08-22T14:00:00Z",
+      "opponent": "Crystal Palace FC",
+      "venue": "H",
+      "goals_for": 2,
+      "goals_against": 0,
+      "outcome": "W",
+      "competition": "Premier League"
+    }
+  ],
+  "Coventry City FC": [
+    {
+      "date": "2026-08-21T19:00:00Z",
+      "opponent": "Arsenal FC",
+      "venue": "A",
+      "goals_for": 0,
+      "goals_against": 3,
+      "outcome": "L",
+      "competition": "Premier League"
+    }
+  ],
+  "Hull City AFC": [
+    {
+      "date": "2026-08-22T11:30:00Z",
+      "opponent": "Manchester United FC",
+      "venue": "H",
+      "goals_for": 2,
+      "goals_against": 0,
+      "outcome": "W",
+      "competition": "Premier League"
+    }
+  ],
+  "Tottenham Hotspur FC": [
+    {
+      "date": "2026-08-22T16:30:00Z",
+      "opponent": "Brentford FC",
+      "venue": "A",
+      "goals_for": 0,
+      "goals_against": 3,
+      "outcome": "L",
+      "competition": "Premier League"
+    }
+  ],
+  "Newcastle United FC": [
+    {
+      "date": "2026-08-23T15:30:00Z",
+      "opponent": "Liverpool FC",
+      "venue": "H",
+      "goals_for": 2,
+      "goals_against": 2,
+      "outcome": "D",
+      "competition": "Premier League"
+    }
+  ],
+  "Sunderland AFC": [
+    {
+      "date": "2026-08-22T14:00:00Z",
+      "opponent": "Ipswich Town FC",
+      "venue": "A",
+      "goals_for": 1,
+      "goals_against": 2,
+      "outcome": "L",
+      "competition": "Premier League"
+    }
+  ],
+  "Fulham FC": [
+    {
+      "date": "2026-08-24T19:00:00Z",
+      "opponent": "Chelsea FC",
+      "venue": "H",
+      "goals_for": 2,
+      "goals_against": 3,
+      "outcome": "L",
+      "competition": "Premier League"
+    }
+  ],
+  "Chelsea FC": [
+    {
+      "date": "2026-08-24T19:00:00Z",
+      "opponent": "Fulham FC",
+      "venue": "A",
+      "goals_for": 3,
+      "goals_against": 2,
+      "outcome": "W",
+      "competition": "Premier League"
+    }
+  ],
+  "Brighton & Hove Albion FC": [
+    {
+      "date": "2026-08-23T13:00:00Z",
+      "opponent": "Aston Villa FC",
+      "venue": "H",
+      "goals_for": 4,
+      "goals_against": 0,
+      "outcome": "W",
+      "competition": "Premier League"
+    }
+  ],
+  "Leeds United FC": [
+    {
+      "date": "2026-08-22T14:00:00Z",
+      "opponent": "Nottingham Forest FC",
+      "venue": "A",
+      "goals_for": 1,
+      "goals_against": 0,
+      "outcome": "W",
+      "competition": "Premier League"
+    }
+  ],
+  "Brentford FC": [
+    {
+      "date": "2026-08-22T16:30:00Z",
+      "opponent": "Tottenham Hotspur FC",
+      "venue": "H",
+      "goals_for": 3,
+      "goals_against": 0,
+      "outcome": "W",
+      "competition": "Premier League"
+    }
+  ],
+  "Manchester United FC": [
+    {
+      "date": "2026-08-22T11:30:00Z",
+      "opponent": "Hull City AFC",
+      "venue": "A",
+      "goals_for": 0,
+      "goals_against": 2,
+      "outcome": "L",
+      "competition": "Premier League"
+    }
+  ],
+  "Ipswich Town FC": [
+    {
+      "date": "2026-08-22T14:00:00Z",
+      "opponent": "Sunderland AFC",
+      "venue": "H",
+      "goals_for": 2,
+      "goals_against": 1,
+      "outcome": "W",
+      "competition": "Premier League"
+    }
+  ],
+  "Aston Villa FC": [
+    {
+      "date": "2026-08-23T13:00:00Z",
+      "opponent": "Brighton & Hove Albion FC",
+      "venue": "A",
+      "goals_for": 0,
+      "goals_against": 4,
+      "outcome": "L",
+      "competition": "Premier League"
+    }
+  ],
+  "Arsenal FC": [
+    {
+      "date": "2026-08-21T19:00:00Z",
+      "opponent": "Coventry City FC",
+      "venue": "H",
+      "goals_for": 3,
+      "goals_against": 0,
+      "outcome": "W",
+      "competition": "Premier League"
+    }
+  ]
+}

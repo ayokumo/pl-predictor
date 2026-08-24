@@ -1,0 +1,9 @@
+{
+  "_readme": "This file is intentionally hand-maintained. Playstyle, manager tactical edge, and 'key player' lists aren't available from free structured data sources, and honestly benefit from your own judgment more than automation would. Update playstyle/manager_edge occasionally (they change slowly - tied to a manager's identity). Update key_players once and revisit if a team buys/sells someone crucial. Valid playstyle tags used by model.py: 'high-press', 'low-block', 'possession', 'counter-attack'. manager_edge is a subjective -1 to 1 score of tactical sharpness/in-form management. rotation_risk (0-1) should be nudged up manually when a team has a midweek European fixture.",
+  "example_team_entry_template": {
+    "playstyle": "high-press",
+    "manager_edge": 0.3,
+    "key_players": ["Player Name One", "Player Name Two"],
+    "rotation_risk": 0.1
+  }
+}

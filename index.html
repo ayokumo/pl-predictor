@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PL Match Predictor</title>
+<style>
+  :root {
+    --bg: #0d1117; --card: #161b22; --border: #30363d;
+    --text: #e6edf3; --muted: #8b949e; --accent: #3fb950; --accent-away: #f85149;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--text); padding: 24px;
+  }
+  h1 { font-size: 1.4rem; margin-bottom: 4px; }
+  .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
+  .match-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 16px 20px; margin-bottom: 14px;
+  }
+  .teams { display: flex; justify-content: space-between; align-items: center; font-size: 1.05rem; font-weight: 600; }
+  .kickoff { color: var(--muted); font-size: 0.8rem; margin-top: 2px; }
+  .bar-wrap { display: flex; height: 10px; border-radius: 5px; overflow: hidden; margin: 12px 0 8px; background: #21262d; }
+  .bar-home { background: var(--accent); }
+  .bar-draw { background: #8b949e; }
+  .bar-away { background: var(--accent-away); }
+  .probs { display: flex; justify-content: space-between; font-size: 0.8rem; color: var(--muted); }
+  .lineup-tag {
+    display: inline-block; margin-top: 8px; font-size: 0.72rem; padding: 2px 8px;
+    border-radius: 10px; background: #1f6feb33; color: #58a6ff;
+  }
+  .factors { margin-top: 10px; font-size: 0.75rem; color: var(--muted); display: none; }
+  .match-card.expanded .factors { display: block; }
+  .toggle { cursor: pointer; color: #58a6ff; font-size: 0.78rem; margin-top: 8px; }
+  #empty { color: var(--muted); }
+</style>
+</head>
+<body>
+  <h1>Premier League Predictor</h1>
+  <div class="meta" id="generated-meta">Loading...</div>
+  <div id="matches"></div>
+  <div id="empty" style="display:none;">No prediction data yet — run the pipeline (see README) to generate data/predictions.json.</div>
+
+<script>
+async function load() {
+  try {
+    const res = await fetch('./data/predictions.json?t=' + Date.now());
+    if (!res.ok) throw new Error('no data file');
+    const data = await res.json();
+    render(data);
+  } catch (e) {
+    document.getElementById('empty').style.display = 'block';
+    document.getElementById('generated-meta').textContent = '';
+  }
+}
+
+function render(data) {
+  document.getElementById('generated-meta').textContent =
+    `Last updated ${new Date(data.generated_at).toLocaleString()} · mode: ${data.mode}`;
+
+  const container = document.getElementById('matches');
+  container.innerHTML = '';
+
+  data.predictions
+    .sort((a, b) => new Date(a.utc_kickoff) - new Date(b.utc_kickoff))
+    .forEach(fx => {
+      const p = fx.prediction;
+      const card = document.createElement('div');
+      card.className = 'match-card';
+      card.innerHTML = `
+        <div class="teams">
+          <span>${fx.home_team}</span>
+          <span style="color:var(--muted); font-weight:400;">vs</span>
+          <span>${fx.away_team}</span>
+        </div>
+        <div class="kickoff">${new Date(fx.utc_kickoff).toLocaleString()} · Matchday ${fx.matchday ?? '-'}</div>
+        <div class="bar-wrap">
+          <div class="bar-home" style="width:${p.home_win_prob*100}%"></div>
+          <div class="bar-draw" style="width:${p.draw_prob*100}%"></div>
+          <div class="bar-away" style="width:${p.away_win_prob*100}%"></div>
+        </div>
+        <div class="probs">
+          <span>Home ${(p.home_win_prob*100).toFixed(0)}%</span>
+          <span>Draw ${(p.draw_prob*100).toFixed(0)}%</span>
+          <span>Away ${(p.away_win_prob*100).toFixed(0)}%</span>
+        </div>
+        ${fx.lineups_posted ? '<div class="lineup-tag">✓ Lineups factored in</div>' : ''}
+        <div class="toggle">show factor breakdown ▾</div>
+        <div class="factors">${Object.entries(p.factors).map(([k,v]) => `${k}: ${v}`).join(' · ')}</div>
+      `;
+      card.querySelector('.toggle').addEventListener('click', () => {
+        card.classList.toggle('expanded');
+      });
+      container.appendChild(card);
+    });
+}
+
+load();
+setInterval(load, 5 * 60 * 1000); // auto-refresh every 5 min while page is open
+</script>
+</body>
+</html>

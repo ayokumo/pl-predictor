@@ -1,0 +1,202 @@
+{
+  "Brighton & Hove Albion FC": {
+    "position": 1,
+    "played": 1,
+    "won": 1,
+    "draw": 0,
+    "lost": 0,
+    "goal_difference": 4,
+    "points": 3,
+    "form": null
+  },
+  "Arsenal FC": {
+    "position": 2,
+    "played": 1,
+    "won": 1,
+    "draw": 0,
+    "lost": 0,
+    "goal_difference": 3,
+    "points": 3,
+    "form": null
+  },
+  "Brentford FC": {
+    "position": 2,
+    "played": 1,
+    "won": 1,
+    "draw": 0,
+    "lost": 0,
+    "goal_difference": 3,
+    "points": 3,
+    "form": null
+  },
+  "Everton FC": {
+    "position": 4,
+    "played": 1,
+    "won": 1,
+    "draw": 0,
+    "lost": 0,
+    "goal_difference": 2,
+    "points": 3,
+    "form": null
+  },
+  "Hull City AFC": {
+    "position": 4,
+    "played": 1,
+    "won": 1,
+    "draw": 0,
+    "lost": 0,
+    "goal_difference": 2,
+    "points": 3,
+    "form": null
+  },
+  "Chelsea FC": {
+    "position": 6,
+    "played": 1,
+    "won": 1,
+    "draw": 0,
+    "lost": 0,
+    "goal_difference": 1,
+    "points": 3,
+    "form": null
+  },
+  "Ipswich Town FC": {
+    "position": 7,
+    "played": 1,
+    "won": 1,
+    "draw": 0,
+    "lost": 0,
+    "goal_difference": 1,
+    "points": 3,
+    "form": null
+  },
+  "Manchester City FC": {
+    "position": 7,
+    "played": 1,
+    "won": 1,
+    "draw": 0,
+    "lost": 0,
+    "goal_difference": 1,
+    "points": 3,
+    "form": null
+  },
+  "Leeds United FC": {
+    "position": 9,
+    "played": 1,
+    "won": 1,
+    "draw": 0,
+    "lost": 0,
+    "goal_difference": 1,
+    "points": 3,
+    "form": null
+  },
+  "Liverpool FC": {
+    "position": 10,
+    "played": 1,
+    "won": 0,
+    "draw": 1,
+    "lost": 0,
+    "goal_difference": 0,
+    "points": 1,
+    "form": null
+  },
+  "Newcastle United FC": {
+    "position": 10,
+    "played": 1,
+    "won": 0,
+    "draw": 1,
+    "lost": 0,
+    "goal_difference": 0,
+    "points": 1,
+    "form": null
+  },
+  "Fulham FC": {
+    "position": 12,
+    "played": 1,
+    "won": 0,
+    "draw": 0,
+    "lost": 1,
+    "goal_difference": -1,
+    "points": 0,
+    "form": null
+  },
+  "AFC Bournemouth": {
+    "position": 13,
+    "played": 1,
+    "won": 0,
+    "draw": 0,
+    "lost": 1,
+    "goal_difference": -1,
+    "points": 0,
+    "form": null
+  },
+  "Sunderland AFC": {
+    "position": 13,
+    "played": 1,
+    "won": 0,
+    "draw": 0,
+    "lost": 1,
+    "goal_difference": -1,
+    "points": 0,
+    "form": null
+  },
+  "Nottingham Forest FC": {
+    "position": 15,
+    "played": 1,
+    "won": 0,
+    "draw": 0,
+    "lost": 1,
+    "goal_difference": -1,
+    "points": 0,
+    "form": null
+  },
+  "Crystal Palace FC": {
+    "position": 16,
+    "played": 1,
+    "won": 0,
+    "draw": 0,
+    "lost": 1,
+    "goal_difference": -2,
+    "points": 0,
+    "form": null
+  },
+  "Manchester United FC": {
+    "position": 16,
+    "played": 1,
+    "won": 0,
+    "draw": 0,
+    "lost": 1,
+    "goal_difference": -2,
+    "points": 0,
+    "form": null
+  },
+  "Coventry City FC": {
+    "position": 18,
+    "played": 1,
+    "won": 0,
+    "draw": 0,
+    "lost": 1,
+    "goal_difference": -3,
+    "points": 0,
+    "form": null
+  },
+  "Tottenham Hotspur FC": {
+    "position": 18,
+    "played": 1,
+    "won": 0,
+    "draw": 0,
+    "lost": 1,
+    "goal_difference": -3,
+    "points": 0,
+    "form": null
+  },
+  "Aston Villa FC": {
+    "position": 20,
+    "played": 1,
+    "won": 0,
+    "draw": 0,
+    "lost": 1,
+    "goal_difference": -4,
+    "points": 0,
+    "form": null
+  }
+}

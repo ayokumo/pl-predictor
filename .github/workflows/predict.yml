@@ -1,0 +1,54 @@
+name: PL Predictor Pipeline
+
+on:
+  schedule:
+    # Daily full refresh at 07:00 UTC
+    - cron: "0 7 * * *"
+    # Hourly on Fri/Sat/Sun (typical PL matchdays) - adjust days if needed
+    - cron: "0 * * * 5,6,0"
+    # Every 15 min on matchdays for lineup catching (tune to your fixture times,
+    # or leave broad - the script itself does nothing if kickoff isn't near)
+    - cron: "*/15 * * * 5,6,0"
+  workflow_dispatch: {}  # lets you trigger manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine mode
+        id: mode
+        run: |
+          HOUR_MIN=$(date -u +"%H%M")
+          if [ "$HOUR_MIN" = "0700" ]; then
+            echo "mode=daily" >> $GITHUB_OUTPUT
+          elif [ $(( $(date -u +"%-M") % 15 )) -eq 0 ] && [ $(( $(date -u +"%-M") % 60 )) -ne 0 ]; then
+            echo "mode=lineup" >> $GITHUB_OUTPUT
+          else
+            echo "mode=hourly" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run pipeline
+        working-directory: scripts
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: python main.py --mode ${{ steps.mode.outputs.mode }}
+
+      - name: Commit updated data
+        run: |
+          git config user.name "pl-predictor-bot"
+          git config user.email "actions@github.com"
+          git add data/*.json
+          git diff --quiet --cached || git commit -m "Auto-update predictions [skip ci]"
+          git push
