@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T12:45:18.234004+00:00",
-  "mode": "lineup",
+  "generated_at": "2026-09-06T13:55:10.161355+00:00",
+  "mode": "hourly",
   "predictions": [
     {
       "match_id": 560555,
@@ -25,7 +25,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-09-06T12:45:18.233733+00:00"
+        "generated_at": "2026-09-06T13:55:10.161097+00:00"
       }
     },
     {
@@ -51,7 +51,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-09-06T12:45:18.233786+00:00"
+        "generated_at": "2026-09-06T13:55:10.161130+00:00"
       }
     },
     {
@@ -77,7 +77,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-09-06T12:45:18.233809+00:00"
+        "generated_at": "2026-09-06T13:55:10.161152+00:00"
       }
     },
     {
@@ -103,7 +103,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-09-06T12:45:18.233835+00:00"
+        "generated_at": "2026-09-06T13:55:10.161177+00:00"
       }
     },
     {
@@ -129,7 +129,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-09-06T12:45:18.233855+00:00"
+        "generated_at": "2026-09-06T13:55:10.161198+00:00"
       }
     },
     {
@@ -155,7 +155,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-09-06T12:45:18.233874+00:00"
+        "generated_at": "2026-09-06T13:55:10.161215+00:00"
       }
     },
     {
@@ -181,7 +181,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-09-06T12:45:18.233892+00:00"
+        "generated_at": "2026-09-06T13:55:10.161232+00:00"
       }
     },
     {
@@ -207,7 +207,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-09-06T12:45:18.233916+00:00"
+        "generated_at": "2026-09-06T13:55:10.161258+00:00"
       }
     },
     {
@@ -233,7 +233,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-09-06T12:45:18.233935+00:00"
+        "generated_at": "2026-09-06T13:55:10.161278+00:00"
       }
     },
     {
@@ -259,7 +259,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-09-06T12:45:18.233953+00:00"
+        "generated_at": "2026-09-06T13:55:10.161295+00:00"
       }
     }
   ]
