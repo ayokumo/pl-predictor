@@ -60,7 +60,7 @@ index.html               # static dashboard, reads data/predictions.json
 
 ## Trained model and validation (weekly pipeline)
 
-**Weekly schedule:** `.github/workflows/weekly.yml` runs every Monday at 08:00 UTC (cron `0 8 * * 1`) and can also be started by hand from the Actions tab. It refreshes fixtures and form, rebuilds the PySpark features, re-runs the season by season validation, writes `data/predictions_trained.json`, runs the tests and commits the results. The faster daily, hourly and matchday schedules in `predict.yml` are unchanged. It was written and its steps were run locally, but the workflow itself had not been run on GitHub when this was written, so start it once from the Actions tab to confirm.
+**Weekly schedule:** `.github/workflows/weekly.yml` runs every Monday at 08:00 UTC (cron `0 8 * * 1`) and can also be started by hand from the Actions tab. It refreshes fixtures and form, rebuilds the PySpark features, re-runs the season by season validation, writes `data/predictions_trained.json`, runs the tests and commits the results. The faster daily, hourly and matchday schedules in `predict.yml` are unchanged. First run on GitHub on 2026-10-18 finished successfully and committed fresh data and 11 trained predictions.
 
 **Pipeline** (all local, no API key needed for the validation):
 1. `data/raw/E0_*.csv`: 8 Premier League seasons, 2018/19 to 2025/26, from football-data.co.uk, unmodified.
