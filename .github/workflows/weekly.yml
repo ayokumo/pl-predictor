@@ -1,0 +1,54 @@
+name: PL Weekly Retrain and Predictions
+
+# Runs every Monday at 08:00 UTC. The faster schedules in predict.yml stay as they are.
+on:
+  schedule:
+    - cron: "0 8 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt -r requirements-pipeline.txt
+
+      - name: Refresh fixtures, form and weighted predictions
+        working-directory: scripts
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: python main.py --mode daily
+
+      - name: Build PySpark features
+        run: python pipeline/features_spark.py
+
+      - name: Validate season by season
+        run: python pipeline/train_validate.py
+
+      - name: Trained model predictions for upcoming fixtures
+        run: python pipeline/predict_upcoming.py
+
+      - name: Run tests
+        run: python -m pytest tests -q
+
+      - name: Commit updated data
+        run: |
+          git config user.name "pl-predictor-bot"
+          git config user.email "actions@github.com"
+          git add data/*.json data/results data/features
+          git diff --quiet --cached || git commit -m "Weekly retrain and predictions [skip ci]"
+          git push

@@ -37,8 +37,10 @@ def load_team_meta():
 
 def build_team_data(team_name, form_data, injury_data, team_meta):
     meta = team_meta.get(team_name, {})
+    # The API returns matches oldest first, but model.py expects newest first.
+    form = sorted(form_data.get(team_name, []), key=lambda r: r.get("date", ""), reverse=True)
     return {
-        "form_results": form_data.get(team_name, []),
+        "form_results": form,
         "injuries": injury_data.get(team_name, []),
         "playstyle": meta.get("playstyle"),
         "manager_edge": meta.get("manager_edge", 0.0),
