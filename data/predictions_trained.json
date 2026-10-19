@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T22:23:01.467042+00:00",
+  "generated_at": "2026-10-19T15:18:22.899547+00:00",
   "model": "logistic regression on last 5 match form, trained on 2018/19 to 2025/26",
   "predictions": [
     {
