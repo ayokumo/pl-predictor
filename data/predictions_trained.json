@@ -1,116 +1,106 @@
 {
-  "generated_at": "2026-10-19T15:18:22.899547+00:00",
+  "generated_at": "2026-10-26T14:52:19.504547+00:00",
   "model": "logistic regression on last 5 match form, trained on 2018/19 to 2025/26",
   "predictions": [
     {
-      "match_id": 560606,
-      "utc_kickoff": "2026-10-19T19:00:00Z",
-      "home_team": "Tottenham Hotspur FC",
-      "away_team": "Coventry City FC",
-      "home_win_prob": 0.413,
-      "draw_prob": 0.236,
-      "away_win_prob": 0.35,
-      "pick": "H"
-    },
-    {
-      "match_id": 560620,
-      "utc_kickoff": "2026-10-23T19:00:00Z",
-      "home_team": "Ipswich Town FC",
-      "away_team": "Nottingham Forest FC",
-      "home_win_prob": 0.456,
-      "draw_prob": 0.252,
-      "away_win_prob": 0.292,
-      "pick": "H"
-    },
-    {
-      "match_id": 560614,
-      "utc_kickoff": "2026-10-24T11:30:00Z",
-      "home_team": "Aston Villa FC",
-      "away_team": "Manchester City FC",
-      "home_win_prob": 0.517,
-      "draw_prob": 0.214,
-      "away_win_prob": 0.269,
-      "pick": "H"
-    },
-    {
-      "match_id": 560616,
-      "utc_kickoff": "2026-10-24T14:00:00Z",
-      "home_team": "Arsenal FC",
-      "away_team": "Everton FC",
-      "home_win_prob": 0.553,
-      "draw_prob": 0.246,
-      "away_win_prob": 0.201,
-      "pick": "H"
-    },
-    {
-      "match_id": 560618,
-      "utc_kickoff": "2026-10-24T14:00:00Z",
-      "home_team": "Coventry City FC",
-      "away_team": "Fulham FC",
-      "home_win_prob": 0.395,
-      "draw_prob": 0.253,
-      "away_win_prob": 0.352,
-      "pick": "H"
-    },
-    {
-      "match_id": 560617,
-      "utc_kickoff": "2026-10-24T16:30:00Z",
+      "match_id": 560626,
+      "utc_kickoff": "2026-10-31T12:30:00Z",
       "home_team": "Chelsea FC",
-      "away_team": "Tottenham Hotspur FC",
-      "home_win_prob": 0.533,
-      "draw_prob": 0.229,
-      "away_win_prob": 0.238,
+      "away_team": "Manchester United FC",
+      "home_win_prob": 0.61,
+      "draw_prob": 0.216,
+      "away_win_prob": 0.174,
       "pick": "H"
     },
     {
-      "match_id": 560612,
-      "utc_kickoff": "2026-10-25T14:00:00Z",
-      "home_team": "Liverpool FC",
+      "match_id": 560623,
+      "utc_kickoff": "2026-10-31T15:00:00Z",
+      "home_team": "Manchester City FC",
       "away_team": "Brighton & Hove Albion FC",
-      "home_win_prob": 0.227,
-      "draw_prob": 0.211,
-      "away_win_prob": 0.562,
+      "home_win_prob": 0.311,
+      "draw_prob": 0.21,
+      "away_win_prob": 0.479,
       "pick": "A"
     },
     {
-      "match_id": 560613,
-      "utc_kickoff": "2026-10-25T14:00:00Z",
-      "home_team": "Crystal Palace FC",
-      "away_team": "Newcastle United FC",
-      "home_win_prob": 0.517,
-      "draw_prob": 0.245,
-      "away_win_prob": 0.238,
-      "pick": "H"
-    },
-    {
-      "match_id": 560615,
-      "utc_kickoff": "2026-10-25T14:00:00Z",
-      "home_team": "Manchester United FC",
-      "away_team": "AFC Bournemouth",
-      "home_win_prob": 0.409,
-      "draw_prob": 0.225,
-      "away_win_prob": 0.365,
-      "pick": "H"
-    },
-    {
-      "match_id": 560619,
-      "utc_kickoff": "2026-10-25T14:00:00Z",
-      "home_team": "Hull City AFC",
-      "away_team": "Brentford FC",
-      "home_win_prob": 0.33,
-      "draw_prob": 0.211,
-      "away_win_prob": 0.458,
-      "pick": "A"
-    },
-    {
-      "match_id": 560621,
-      "utc_kickoff": "2026-10-25T16:30:00Z",
-      "home_team": "Sunderland AFC",
+      "match_id": 560624,
+      "utc_kickoff": "2026-10-31T15:00:00Z",
+      "home_team": "AFC Bournemouth",
       "away_team": "Leeds United FC",
-      "home_win_prob": 0.236,
-      "draw_prob": 0.218,
-      "away_win_prob": 0.546,
+      "home_win_prob": 0.401,
+      "draw_prob": 0.244,
+      "away_win_prob": 0.354,
+      "pick": "H"
+    },
+    {
+      "match_id": 560625,
+      "utc_kickoff": "2026-10-31T15:00:00Z",
+      "home_team": "Coventry City FC",
+      "away_team": "Sunderland AFC",
+      "home_win_prob": 0.514,
+      "draw_prob": 0.246,
+      "away_win_prob": 0.24,
+      "pick": "H"
+    },
+    {
+      "match_id": 560629,
+      "utc_kickoff": "2026-10-31T15:00:00Z",
+      "home_team": "Hull City AFC",
+      "away_team": "Ipswich Town FC",
+      "home_win_prob": 0.383,
+      "draw_prob": 0.223,
+      "away_win_prob": 0.395,
       "pick": "A"
+    },
+    {
+      "match_id": 560630,
+      "utc_kickoff": "2026-10-31T15:00:00Z",
+      "home_team": "Brentford FC",
+      "away_team": "Nottingham Forest FC",
+      "home_win_prob": 0.528,
+      "draw_prob": 0.223,
+      "away_win_prob": 0.249,
+      "pick": "H"
+    },
+    {
+      "match_id": 560627,
+      "utc_kickoff": "2026-10-31T17:30:00Z",
+      "home_team": "Tottenham Hotspur FC",
+      "away_team": "Crystal Palace FC",
+      "home_win_prob": 0.611,
+      "draw_prob": 0.212,
+      "away_win_prob": 0.178,
+      "pick": "H"
+    },
+    {
+      "match_id": 560628,
+      "utc_kickoff": "2026-10-31T20:00:00Z",
+      "home_team": "Aston Villa FC",
+      "away_team": "Fulham FC",
+      "home_win_prob": 0.635,
+      "draw_prob": 0.217,
+      "away_win_prob": 0.148,
+      "pick": "H"
+    },
+    {
+      "match_id": 560631,
+      "utc_kickoff": "2026-11-01T16:30:00Z",
+      "home_team": "Liverpool FC",
+      "away_team": "Arsenal FC",
+      "home_win_prob": 0.446,
+      "draw_prob": 0.264,
+      "away_win_prob": 0.29,
+      "pick": "H"
+    },
+    {
+      "match_id": 560622,
+      "utc_kickoff": "2026-11-02T20:00:00Z",
+      "home_team": "Newcastle United FC",
+      "away_team": "Everton FC",
+      "home_win_prob": 0.426,
+      "draw_prob": 0.266,
+      "away_win_prob": 0.308,
+      "pick": "H"
     }
   ],
   "skipped": []

@@ -1,4 +1,4 @@
-Validation run on 2026-10-19
+Validation run on 2026-10-26
 
 | Test season | Train matches | Test matches | Always home win | Weighted model | Logistic regression | Gradient boosting |
 |---|---|---|---|---|---|---|
