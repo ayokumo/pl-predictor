@@ -1,241 +1,7 @@
 {
-  "generated_at": "2026-11-02T16:45:36.872545+00:00",
-  "mode": "lineup",
+  "generated_at": "2026-11-02T17:48:40.248815+00:00",
+  "mode": "daily",
   "predictions": [
-    {
-      "match_id": 560626,
-      "utc_kickoff": "2026-10-31T12:30:00Z",
-      "matchday": 9,
-      "home_team": "Chelsea FC",
-      "away_team": "Manchester United FC",
-      "lineups_posted": false,
-      "prediction": {
-        "home_win_prob": 0.509,
-        "draw_prob": 0.2,
-        "away_win_prob": 0.291,
-        "confidence": 0.241,
-        "raw_score": 0.241,
-        "factors": {
-          "home_form": 0.481,
-          "away_form": 0.105,
-          "home_goal_diff_trend": 0.533,
-          "away_goal_diff_trend": 0.233,
-          "home_injury_penalty": 0.0,
-          "away_injury_penalty": 0.0,
-          "playstyle_edge": 0.0,
-          "manager_edge": 0.0
-        },
-        "generated_at": "2026-11-02T16:45:36.872359+00:00"
-      }
-    },
-    {
-      "match_id": 560623,
-      "utc_kickoff": "2026-10-31T15:00:00Z",
-      "matchday": 9,
-      "home_team": "Manchester City FC",
-      "away_team": "Brighton & Hove Albion FC",
-      "lineups_posted": false,
-      "prediction": {
-        "home_win_prob": 0.411,
-        "draw_prob": 0.2,
-        "away_win_prob": 0.389,
-        "confidence": 0.024,
-        "raw_score": 0.024,
-        "factors": {
-          "home_form": 0.557,
-          "away_form": 0.714,
-          "home_goal_diff_trend": 0.667,
-          "away_goal_diff_trend": 0.933,
-          "home_injury_penalty": 0.0,
-          "away_injury_penalty": 0.0,
-          "playstyle_edge": 0.0,
-          "manager_edge": 0.0
-        },
-        "generated_at": "2026-11-02T16:45:36.872390+00:00"
-      }
-    },
-    {
-      "match_id": 560624,
-      "utc_kickoff": "2026-10-31T15:00:00Z",
-      "matchday": 9,
-      "home_team": "AFC Bournemouth",
-      "away_team": "Leeds United FC",
-      "lineups_posted": false,
-      "prediction": {
-        "home_win_prob": 0.47,
-        "draw_prob": 0.2,
-        "away_win_prob": 0.33,
-        "confidence": 0.155,
-        "raw_score": 0.155,
-        "factors": {
-          "home_form": 0.567,
-          "away_form": 0.343,
-          "home_goal_diff_trend": 0.5,
-          "away_goal_diff_trend": 0.567,
-          "home_injury_penalty": 0.0,
-          "away_injury_penalty": 0.0,
-          "playstyle_edge": 0.0,
-          "manager_edge": 0.0
-        },
-        "generated_at": "2026-11-02T16:45:36.872406+00:00"
-      }
-    },
-    {
-      "match_id": 560625,
-      "utc_kickoff": "2026-10-31T15:00:00Z",
-      "matchday": 9,
-      "home_team": "Coventry City FC",
-      "away_team": "Sunderland AFC",
-      "lineups_posted": false,
-      "prediction": {
-        "home_win_prob": 0.485,
-        "draw_prob": 0.2,
-        "away_win_prob": 0.315,
-        "confidence": 0.189,
-        "raw_score": 0.189,
-        "factors": {
-          "home_form": 0.357,
-          "away_form": 0.095,
-          "home_goal_diff_trend": 0.367,
-          "away_goal_diff_trend": 0.233,
-          "home_injury_penalty": 0.0,
-          "away_injury_penalty": 0.0,
-          "playstyle_edge": 0.0,
-          "manager_edge": 0.0
-        },
-        "generated_at": "2026-11-02T16:45:36.872426+00:00"
-      }
-    },
-    {
-      "match_id": 560629,
-      "utc_kickoff": "2026-10-31T15:00:00Z",
-      "matchday": 9,
-      "home_team": "Hull City AFC",
-      "away_team": "Ipswich Town FC",
-      "lineups_posted": false,
-      "prediction": {
-        "home_win_prob": 0.415,
-        "draw_prob": 0.2,
-        "away_win_prob": 0.385,
-        "confidence": 0.033,
-        "raw_score": 0.033,
-        "factors": {
-          "home_form": 0.2,
-          "away_form": 0.41,
-          "home_goal_diff_trend": 0.433,
-          "away_goal_diff_trend": 0.5,
-          "home_injury_penalty": 0.0,
-          "away_injury_penalty": 0.0,
-          "playstyle_edge": 0.0,
-          "manager_edge": 0.0
-        },
-        "generated_at": "2026-11-02T16:45:36.872441+00:00"
-      }
-    },
-    {
-      "match_id": 560630,
-      "utc_kickoff": "2026-10-31T15:00:00Z",
-      "matchday": 9,
-      "home_team": "Brentford FC",
-      "away_team": "Nottingham Forest FC",
-      "lineups_posted": false,
-      "prediction": {
-        "home_win_prob": 0.473,
-        "draw_prob": 0.2,
-        "away_win_prob": 0.327,
-        "confidence": 0.161,
-        "raw_score": 0.161,
-        "factors": {
-          "home_form": 0.357,
-          "away_form": 0.21,
-          "home_goal_diff_trend": 0.567,
-          "away_goal_diff_trend": 0.4,
-          "home_injury_penalty": 0.0,
-          "away_injury_penalty": 0.0,
-          "playstyle_edge": 0.0,
-          "manager_edge": 0.0
-        },
-        "generated_at": "2026-11-02T16:45:36.872455+00:00"
-      }
-    },
-    {
-      "match_id": 560627,
-      "utc_kickoff": "2026-10-31T17:30:00Z",
-      "matchday": 9,
-      "home_team": "Tottenham Hotspur FC",
-      "away_team": "Crystal Palace FC",
-      "lineups_posted": false,
-      "prediction": {
-        "home_win_prob": 0.509,
-        "draw_prob": 0.2,
-        "away_win_prob": 0.291,
-        "confidence": 0.243,
-        "raw_score": 0.243,
-        "factors": {
-          "home_form": 0.633,
-          "away_form": 0.252,
-          "home_goal_diff_trend": 0.6,
-          "away_goal_diff_trend": 0.3,
-          "home_injury_penalty": 0.0,
-          "away_injury_penalty": 0.0,
-          "playstyle_edge": 0.0,
-          "manager_edge": 0.0
-        },
-        "generated_at": "2026-11-02T16:45:36.872469+00:00"
-      }
-    },
-    {
-      "match_id": 560628,
-      "utc_kickoff": "2026-10-31T20:00:00Z",
-      "matchday": 9,
-      "home_team": "Aston Villa FC",
-      "away_team": "Fulham FC",
-      "lineups_posted": false,
-      "prediction": {
-        "home_win_prob": 0.5,
-        "draw_prob": 0.2,
-        "away_win_prob": 0.3,
-        "confidence": 0.221,
-        "raw_score": 0.221,
-        "factors": {
-          "home_form": 0.924,
-          "away_form": 0.619,
-          "home_goal_diff_trend": 0.833,
-          "away_goal_diff_trend": 0.533,
-          "home_injury_penalty": 0.0,
-          "away_injury_penalty": 0.0,
-          "playstyle_edge": 0.0,
-          "manager_edge": 0.0
-        },
-        "generated_at": "2026-11-02T16:45:36.872487+00:00"
-      }
-    },
-    {
-      "match_id": 560631,
-      "utc_kickoff": "2026-11-01T16:30:00Z",
-      "matchday": 9,
-      "home_team": "Liverpool FC",
-      "away_team": "Arsenal FC",
-      "lineups_posted": false,
-      "prediction": {
-        "home_win_prob": 0.446,
-        "draw_prob": 0.2,
-        "away_win_prob": 0.354,
-        "confidence": 0.101,
-        "raw_score": 0.101,
-        "factors": {
-          "home_form": 0.886,
-          "away_form": 0.838,
-          "home_goal_diff_trend": 0.633,
-          "away_goal_diff_trend": 0.733,
-          "home_injury_penalty": 0.0,
-          "away_injury_penalty": 0.0,
-          "playstyle_edge": 0.0,
-          "manager_edge": 0.0
-        },
-        "generated_at": "2026-11-02T16:45:36.872502+00:00"
-      }
-    },
     {
       "match_id": 560622,
       "utc_kickoff": "2026-11-02T20:00:00Z",
@@ -259,7 +25,267 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-02T16:45:36.872515+00:00"
+        "generated_at": "2026-11-02T17:48:40.248458+00:00"
+      }
+    },
+    {
+      "match_id": 560634,
+      "utc_kickoff": "2026-11-06T20:00:00Z",
+      "matchday": 10,
+      "home_team": "Everton FC",
+      "away_team": "Coventry City FC",
+      "lineups_posted": false,
+      "prediction": {
+        "home_win_prob": 0.397,
+        "draw_prob": 0.2,
+        "away_win_prob": 0.403,
+        "confidence": 0.007,
+        "raw_score": -0.007,
+        "factors": {
+          "home_form": 0.262,
+          "away_form": 0.557,
+          "home_goal_diff_trend": 0.4,
+          "away_goal_diff_trend": 0.6,
+          "home_injury_penalty": 0.0,
+          "away_injury_penalty": 0.0,
+          "playstyle_edge": 0.0,
+          "manager_edge": 0.0
+        },
+        "generated_at": "2026-11-02T17:48:40.248493+00:00"
+      }
+    },
+    {
+      "match_id": 560632,
+      "utc_kickoff": "2026-11-07T12:30:00Z",
+      "matchday": 10,
+      "home_team": "Leeds United FC",
+      "away_team": "Tottenham Hotspur FC",
+      "lineups_posted": false,
+      "prediction": {
+        "home_win_prob": 0.356,
+        "draw_prob": 0.2,
+        "away_win_prob": 0.444,
+        "confidence": 0.099,
+        "raw_score": -0.099,
+        "factors": {
+          "home_form": 0.186,
+          "away_form": 0.781,
+          "home_goal_diff_trend": 0.4,
+          "away_goal_diff_trend": 0.667,
+          "home_injury_penalty": 0.0,
+          "away_injury_penalty": 0.0,
+          "playstyle_edge": 0.0,
+          "manager_edge": 0.0
+        },
+        "generated_at": "2026-11-02T17:48:40.248514+00:00"
+      }
+    },
+    {
+      "match_id": 560640,
+      "utc_kickoff": "2026-11-07T15:00:00Z",
+      "matchday": 10,
+      "home_team": "Arsenal FC",
+      "away_team": "Hull City AFC",
+      "lineups_posted": false,
+      "prediction": {
+        "home_win_prob": 0.542,
+        "draw_prob": 0.2,
+        "away_win_prob": 0.258,
+        "confidence": 0.315,
+        "raw_score": 0.315,
+        "factors": {
+          "home_form": 0.867,
+          "away_form": 0.229,
+          "home_goal_diff_trend": 0.733,
+          "away_goal_diff_trend": 0.433,
+          "home_injury_penalty": 0.0,
+          "away_injury_penalty": 0.0,
+          "playstyle_edge": 0.0,
+          "manager_edge": 0.0
+        },
+        "generated_at": "2026-11-02T17:48:40.248541+00:00"
+      }
+    },
+    {
+      "match_id": 560633,
+      "utc_kickoff": "2026-11-07T15:00:00Z",
+      "matchday": 10,
+      "home_team": "Fulham FC",
+      "away_team": "Newcastle United FC",
+      "lineups_posted": false,
+      "prediction": {
+        "home_win_prob": 0.471,
+        "draw_prob": 0.2,
+        "away_win_prob": 0.329,
+        "confidence": 0.157,
+        "raw_score": 0.157,
+        "factors": {
+          "home_form": 0.576,
+          "away_form": 0.443,
+          "home_goal_diff_trend": 0.533,
+          "away_goal_diff_trend": 0.367,
+          "home_injury_penalty": 0.0,
+          "away_injury_penalty": 0.0,
+          "playstyle_edge": 0.0,
+          "manager_edge": 0.0
+        },
+        "generated_at": "2026-11-02T17:48:40.248563+00:00"
+      }
+    },
+    {
+      "match_id": 560641,
+      "utc_kickoff": "2026-11-07T17:30:00Z",
+      "matchday": 10,
+      "home_team": "Nottingham Forest FC",
+      "away_team": "Manchester City FC",
+      "lineups_posted": false,
+      "prediction": {
+        "home_win_prob": 0.398,
+        "draw_prob": 0.2,
+        "away_win_prob": 0.402,
+        "confidence": 0.005,
+        "raw_score": -0.005,
+        "factors": {
+          "home_form": 0.081,
+          "away_form": 0.357,
+          "home_goal_diff_trend": 0.3,
+          "away_goal_diff_trend": 0.533,
+          "home_injury_penalty": 0.0,
+          "away_injury_penalty": 0.0,
+          "playstyle_edge": 0.0,
+          "manager_edge": 0.0
+        },
+        "generated_at": "2026-11-02T17:48:40.248583+00:00"
+      }
+    },
+    {
+      "match_id": 560635,
+      "utc_kickoff": "2026-11-08T14:00:00Z",
+      "matchday": 10,
+      "home_team": "Crystal Palace FC",
+      "away_team": "Liverpool FC",
+      "lineups_posted": false,
+      "prediction": {
+        "home_win_prob": 0.356,
+        "draw_prob": 0.2,
+        "away_win_prob": 0.444,
+        "confidence": 0.097,
+        "raw_score": -0.097,
+        "factors": {
+          "home_form": 0.195,
+          "away_form": 0.714,
+          "home_goal_diff_trend": 0.267,
+          "away_goal_diff_trend": 0.7,
+          "home_injury_penalty": 0.0,
+          "away_injury_penalty": 0.0,
+          "playstyle_edge": 0.0,
+          "manager_edge": 0.0
+        },
+        "generated_at": "2026-11-02T17:48:40.248602+00:00"
+      }
+    },
+    {
+      "match_id": 560636,
+      "utc_kickoff": "2026-11-08T14:00:00Z",
+      "matchday": 10,
+      "home_team": "Sunderland AFC",
+      "away_team": "Chelsea FC",
+      "lineups_posted": false,
+      "prediction": {
+        "home_win_prob": 0.354,
+        "draw_prob": 0.2,
+        "away_win_prob": 0.446,
+        "confidence": 0.101,
+        "raw_score": -0.101,
+        "factors": {
+          "home_form": 0.081,
+          "away_form": 0.643,
+          "home_goal_diff_trend": 0.233,
+          "away_goal_diff_trend": 0.6,
+          "home_injury_penalty": 0.0,
+          "away_injury_penalty": 0.0,
+          "playstyle_edge": 0.0,
+          "manager_edge": 0.0
+        },
+        "generated_at": "2026-11-02T17:48:40.248630+00:00"
+      }
+    },
+    {
+      "match_id": 560637,
+      "utc_kickoff": "2026-11-08T14:00:00Z",
+      "matchday": 10,
+      "home_team": "Ipswich Town FC",
+      "away_team": "AFC Bournemouth",
+      "lineups_posted": false,
+      "prediction": {
+        "home_win_prob": 0.39,
+        "draw_prob": 0.2,
+        "away_win_prob": 0.41,
+        "confidence": 0.023,
+        "raw_score": -0.023,
+        "factors": {
+          "home_form": 0.333,
+          "away_form": 0.729,
+          "home_goal_diff_trend": 0.467,
+          "away_goal_diff_trend": 0.567,
+          "home_injury_penalty": 0.0,
+          "away_injury_penalty": 0.0,
+          "playstyle_edge": 0.0,
+          "manager_edge": 0.0
+        },
+        "generated_at": "2026-11-02T17:48:40.248651+00:00"
+      }
+    },
+    {
+      "match_id": 560638,
+      "utc_kickoff": "2026-11-08T14:00:00Z",
+      "matchday": 10,
+      "home_team": "Brighton & Hove Albion FC",
+      "away_team": "Brentford FC",
+      "lineups_posted": false,
+      "prediction": {
+        "home_win_prob": 0.482,
+        "draw_prob": 0.2,
+        "away_win_prob": 0.318,
+        "confidence": 0.183,
+        "raw_score": 0.183,
+        "factors": {
+          "home_form": 0.757,
+          "away_form": 0.533,
+          "home_goal_diff_trend": 0.8,
+          "away_goal_diff_trend": 0.633,
+          "home_injury_penalty": 0.0,
+          "away_injury_penalty": 0.0,
+          "playstyle_edge": 0.0,
+          "manager_edge": 0.0
+        },
+        "generated_at": "2026-11-02T17:48:40.248669+00:00"
+      }
+    },
+    {
+      "match_id": 560639,
+      "utc_kickoff": "2026-11-08T16:30:00Z",
+      "matchday": 10,
+      "home_team": "Manchester United FC",
+      "away_team": "Aston Villa FC",
+      "lineups_posted": false,
+      "prediction": {
+        "home_win_prob": 0.314,
+        "draw_prob": 0.2,
+        "away_win_prob": 0.486,
+        "confidence": 0.192,
+        "raw_score": -0.192,
+        "factors": {
+          "home_form": 0.052,
+          "away_form": 0.81,
+          "home_goal_diff_trend": 0.167,
+          "away_goal_diff_trend": 0.833,
+          "home_injury_penalty": 0.0,
+          "away_injury_penalty": 0.0,
+          "playstyle_edge": 0.0,
+          "manager_edge": 0.0
+        },
+        "generated_at": "2026-11-02T17:48:40.248686+00:00"
       }
     }
   ]
