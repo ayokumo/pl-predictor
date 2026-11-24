@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T19:50:21.481938+00:00",
-  "mode": "daily",
+  "generated_at": "2026-11-24T18:34:34.576852+00:00",
+  "mode": "hourly",
   "predictions": [
     {
       "match_id": 560649,
@@ -25,7 +25,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481445+00:00"
+        "generated_at": "2026-11-24T18:34:34.576484+00:00"
       }
     },
     {
@@ -51,7 +51,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481471+00:00"
+        "generated_at": "2026-11-24T18:34:34.576511+00:00"
       }
     },
     {
@@ -77,7 +77,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481488+00:00"
+        "generated_at": "2026-11-24T18:34:34.576531+00:00"
       }
     },
     {
@@ -103,7 +103,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481509+00:00"
+        "generated_at": "2026-11-24T18:34:34.576553+00:00"
       }
     },
     {
@@ -129,7 +129,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481527+00:00"
+        "generated_at": "2026-11-24T18:34:34.576573+00:00"
       }
     },
     {
@@ -155,7 +155,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481542+00:00"
+        "generated_at": "2026-11-24T18:34:34.576590+00:00"
       }
     },
     {
@@ -181,7 +181,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481557+00:00"
+        "generated_at": "2026-11-24T18:34:34.576609+00:00"
       }
     },
     {
@@ -207,7 +207,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481579+00:00"
+        "generated_at": "2026-11-24T18:34:34.576632+00:00"
       }
     },
     {
@@ -233,7 +233,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481596+00:00"
+        "generated_at": "2026-11-24T18:34:34.576653+00:00"
       }
     },
     {
@@ -259,7 +259,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481612+00:00"
+        "generated_at": "2026-11-24T18:34:34.576670+00:00"
       }
     },
     {
@@ -285,7 +285,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481630+00:00"
+        "generated_at": "2026-11-24T18:34:34.576686+00:00"
       }
     },
     {
@@ -311,7 +311,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481643+00:00"
+        "generated_at": "2026-11-24T18:34:34.576700+00:00"
       }
     },
     {
@@ -337,7 +337,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481657+00:00"
+        "generated_at": "2026-11-24T18:34:34.576713+00:00"
       }
     },
     {
@@ -363,7 +363,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481670+00:00"
+        "generated_at": "2026-11-24T18:34:34.576725+00:00"
       }
     },
     {
@@ -389,7 +389,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481683+00:00"
+        "generated_at": "2026-11-24T18:34:34.576738+00:00"
       }
     },
     {
@@ -415,7 +415,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481695+00:00"
+        "generated_at": "2026-11-24T18:34:34.576750+00:00"
       }
     },
     {
@@ -441,7 +441,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481708+00:00"
+        "generated_at": "2026-11-24T18:34:34.576763+00:00"
       }
     },
     {
@@ -467,7 +467,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481722+00:00"
+        "generated_at": "2026-11-24T18:34:34.576776+00:00"
       }
     },
     {
@@ -493,7 +493,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481734+00:00"
+        "generated_at": "2026-11-24T18:34:34.576788+00:00"
       }
     },
     {
@@ -519,7 +519,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481747+00:00"
+        "generated_at": "2026-11-24T18:34:34.576805+00:00"
       }
     },
     {
@@ -545,7 +545,7 @@
           "playstyle_edge": 0.0,
           "manager_edge": 0.0
         },
-        "generated_at": "2026-11-23T19:50:21.481760+00:00"
+        "generated_at": "2026-11-24T18:34:34.576816+00:00"
       }
     }
   ]
